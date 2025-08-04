@@ -1,0 +1,159 @@
+/* src/pages/student/ExamPage.css */
+
+.exam-wrapper {
+  font-family: Arial, sans-serif;
+}
+
+.exam-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3f3f3;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ddd;
+}
+
+.exam-info p {
+  margin: 4px 0;
+}
+
+.timer {
+  background: #0b74de;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.exam-body {
+  display: flex;
+  padding: 20px;
+}
+
+.question-panel {
+  flex: 3;
+  padding-right: 30px;
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+}
+
+.options li {
+  margin: 10px 0;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.actions .btn {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+}
+
+.btn.green { background-color: #28a745; }
+.btn.orange { background-color: #fd7e14; }
+.btn.blue { background-color: #007bff; }
+.btn.gray { background-color: #6c757d; }
+.btn.submit { background-color: #198754; }
+
+.side-panel {
+  flex: 1;
+  border-left: 2px solid #ccc;
+  padding-left: 20px;
+}
+
+.legend p {
+  font-size: 12px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.box.gray { background-color: #ccc; }
+.box.red { background-color: #dc3545; }
+.box.green { background-color: #28a745; }
+.box.purple { background-color: purple; }
+.box.purple-border {
+  border: 2px solid purple;
+  background: white;
+}
+
+.question-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.qnum {
+  width: 32px;
+  height: 32px;
+  background: #eee;
+  margin: 4px;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.qnum.active {
+  background: #0b74de;
+  color: white;
+}
+.qnum.green {
+  background-color: #4caf50;
+  color: white;
+}
+
+.qnum.red {
+  background-color: #f44336;
+  color: white;
+}
+
+.qnum.gray {
+  background-color: #aaa;
+  color: white;
+}
+
+.qnum.active {
+  border: 2px solid #000;
+}
+.qnum {
+  width: 30px;
+  height: 30px;
+  margin: 4px;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.qnum.not-visited { background-color: #ccc; }
+.qnum.not-answered { background-color: #f44336; color: white; }
+.qnum.answered { background-color: #4caf50; color: white; }
+.qnum.review { background-color: #9c27b0; color: white; }
+
+.legend .box {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+}
+
+.box.gray { background-color: #ccc; }
+.box.red { background-color: #f44336; }
+.box.green { background-color: #4caf50; }
+.box.purple { background-color: #9c27b0; }

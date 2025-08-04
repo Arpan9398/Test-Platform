@@ -1,0 +1,96 @@
+.create-test-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.create-test-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.test-form input,
+.test-form select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.3s;
+}
+
+.test-form input:focus,
+.test-form select:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.question-block {
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #e2e2e2;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.question-block h4 {
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.question-block label {
+  display: block;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+}
+
+.btn-secondary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #0069d9;
+}
+
+@media (max-width: 600px) {
+  .create-test-container {
+    padding: 15px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
